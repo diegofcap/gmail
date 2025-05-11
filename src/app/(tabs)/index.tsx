@@ -2,7 +2,7 @@ import { View, Text } from 'react-native';
 
 export default function Home() {
     return (
-        <View className='flex-1 items-center justify-center bg-red-600'>
+        <View className='flex-1 bg-gray-900'>
             <Text>Teste</Text>
         </View>
     );
