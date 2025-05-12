@@ -24,7 +24,7 @@ export function DrawerButton({
     return (
         <Pressable
             className={clsx("py-2 w-full", {
-                "border-b ml-10 border-gray-500": isDivider,
+                "border-b border-gray-500": isDivider,
             })}
             {...rest}
         >
